@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<!--<link href="css/demo-slideshow.css" rel="stylesheet">-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="js/text/javascript" src="js/jquery.cycle2.js"></script>
+    <style>
+    body, html, main {
+ /* important */
+ height: 100%;
+}
+ 
+.cd-fixed-bg {
+ min-height: 100%;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+ background-image: url("../img/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+ background-image: url("../img/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+ background-image: url("../img/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+ background-image: url("../img/cd-background-4.jpg");
+}
+ 
+.cd-scrolling-bg {
+ min-height: 100%;
+}
+    </style>
+</head>
+
+<body>
+
+<main>
+ <div class="cd-fixed-bg cd-bg-1">
+ <h1>H1</h1>
+ </div> 
+ 
+ <div class="cd-scrolling-bg cd-color-1">
+ <div class="cd-container">
+ <p>
+ CONTENT
+ </p>
+ </div>
+ </div>
+ 
+ <div class="cd-fixed-bg cd-bg-2">
+ <h1>TITLE</h1>
+ </div> 
+ 
+ <div class="cd-scrolling-bg cd-color-2">
+ <div class="cd-container">
+ <p>
+CONTENT 
+ </p>
+ </div>
+ </div>
+</main>
+</body>
+
+</html>

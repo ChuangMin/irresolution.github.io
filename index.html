@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <title></title>
+<!--<link href="css/demo-slideshow.css" rel="stylesheet">-->
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<script type="js/text/javascript" src="js/jquery.cycle2.js"></script>
-<style type="text/css">
-
-</style>
+<script type="text/javascript" src="js/jquery.cycle2.js"></script>
 
 </head>
 
 <body>
 
-<div class="cycle-slideshow" 
+<div class="example-pager"></div>
+   <div class="cycle-slideshow" 
     data-cycle-fx=scrollHorz
-    data-cycle-timeout=4000
+    data-cycle-timeout=2000
+    data-cycle-pager=".example-pager"
     >
-    <!-- empty element for pager links -->
 
-  <div class=cycle-pager></div>
+    <!-- empty element for pager links -->
+    <div class="cycle-pager"></div>
+
+
     <img src="img/ABC.png">
     <img src="img/bac.png">
     <img src="img/disney.png">
-  
 </div>
-
-
+     <div class="cycle-pager"></div>
 </body>
 
 </html>
